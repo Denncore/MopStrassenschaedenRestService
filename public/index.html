@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="" />
+    <script src="libs/javascripts/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="libs/stylesheets/style.css">
+    <link rel="stylesheet" href="libs/stylesheets/bootstrap.css">
+    <script src="libs/javascripts/bootstrap.js" type="text/javascript"></script>
+
+    <script src="libs/javascripts/angular.min.js" type="text/javascript"></script>
+    <script src="libs/javascripts/angular-route.min.js" type="text/javascript"></script>
+
+    <script src="libs/angularModules/controllers.js" type="text/javascript"></script>
+
+    <script src="libs/angularModules/app.js" type="text/javascript"></script>
+    <title>Straßenschäden</title>
+</head>
+<body ng-app="bundesligaergebnisse">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#/strassenschaden/">Gemeldete Straßenschäden</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div ng-view></div>
+
+<div class="footer panel">
+    <div class="panel-footer page-footer text-center">
+        <div style="text-align: right;">
+            <span class="glyphicon glyphicon-copyright-mark"></span> 2015/2016 Team Straßenschäden
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
